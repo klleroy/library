@@ -1,15 +1,15 @@
 const books = [
 	{
 		_id: '1',
-		title: 'Atomic Habits',
-		image: '/images/atomicHabits.jpg',
+		title: 'Toward an Old Testament Theology',
+		image: '/images/tott.jpg',
 		description:
-			"No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
-		genre: 'Self-Help',
-		publisher: 'Avery',
-		publishYear: '2018',
-		isbn: '0735211299',
-		rating: 4.8,
+			'Recognizing the major crisis in biblical theology, namely the inability of the discipline to restate and reapply the authority of the Bible, Walter Kaiser here offers a solution to the unresolved issues of definition and methodology in Old Testament theology.',
+		genre: 'Old Testament Theology, Old Testament Bible Study',
+		publisher: 'Zondervan',
+		publishYear: '1991',
+		isbn: '0310371015',
+		rating: 4.5,
 	},
 	{
 		_id: '2',
