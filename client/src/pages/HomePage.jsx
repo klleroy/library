@@ -8,7 +8,7 @@ const HomePage = () => {
 			<h1>Book Shelf</h1>
 			<Row>
 				{books.map((book) => (
-					<Col key={book._id} sm={12} md={6} lg={4} xl={3}>
+					<Col key={book._id} sm={12} md={10} lg={8} xl={3}>
 						<Book book={book} />
 					</Col>
 				))}

@@ -1,18 +1,20 @@
+/* eslint-disable react/prop-types */
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Book = ({ book }) => {
 	return (
-		<Card className='my-3 p-3 rounded'>
-			<a href={`/book/${book._id}`}>
+		<Card className='my-4 p-4 rounded'>
+			<Link to={`/book/${book._id}`}>
 				<Card.Img src={book.image} variant='top' />
-			</a>
+			</Link>
 			<Card.Body>
-				<a href={`/book/${book._id}`}>
+				<Link to={`/book/${book._id}`}>
 					<Card.Title as='div'>
 						<strong>{book.title}</strong>
 					</Card.Title>
-				</a>
-				<Card.Text as='h3'>{book.author}</Card.Text>
+				</Link>
+				<Card.Text as='h4'>{book.author}</Card.Text>
 			</Card.Body>
 		</Card>
 	);
