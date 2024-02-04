@@ -51,3 +51,9 @@ main {
    bottom: 0;
    background: rgba(0, 0, 0, 0.5);
  }
+
+ /*************************/
+.bookDetails {
+  font-size: small; 
+  line-height: 0.5em;
+}
